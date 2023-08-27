@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.form-group>input {
+  width: 300px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+/* Image container for category */
+
+.Imagecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.Imagecontainer img {
+  width: 100%;
+  height: 300px;
+}
+
+.Imagecontainer .btn {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  /* transform: translate(-50%, -50%); */
+  /* -ms-transform: translate(-50%, -50%); */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.Imagecontainer .btn:hover {
+  background-color: black;
+}
+
+/* CSS end Image container of Category */
+
+.category-link a {
+  text-decoration: none !important;
+  color: black;
+  line-height: 20px;
+}
